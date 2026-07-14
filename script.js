@@ -1,24 +1,17 @@
-// Register
-
 function registerUser(){
 
 let name=document.getElementById("name").value;
 let email=document.getElementById("email").value;
 let password=document.getElementById("password").value;
 
-if(name=="" || email=="" || password=="")
-{
+if(name=="" || email=="" || password==""){
     alert("Please fill all fields");
 }
-else
-{
+else{
     alert("Registration Successful");
     window.location="login.html";
 }
-
 }
-
-// Login
 
 function loginUser(){
 
@@ -36,23 +29,13 @@ else
 }
 
 }
-
-// Enroll
-
 function enroll(button, video) {
-
     if (button.innerHTML === "Enroll") {
-
         alert("Enrolled Successfully!");
-
-        button.innerHTML = "Watch Video";
-
+        button.innerHTML = "Start Learning...";
         button.style.backgroundColor = "blue";
-
     } else {
-
         window.open(video, "_blank");
-
     }
 
 }
