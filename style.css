@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myFont;
+    src: url(sansation_light.woff);
+}
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
@@ -71,4 +75,7 @@ button:hover{
 
 .card h2{
     color:#0d47a1;
+}
+p {
+    font-family: myFont;
 }
